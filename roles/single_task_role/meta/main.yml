@@ -1,0 +1,20 @@
+#SPDX-License-Identifier: MIT-0
+---
+galaxy_info:
+  author: Kristina Filimonova
+  description: Role that uses my_own_module to create files
+  company: Netology
+  license: MIT-0
+  min_ansible_version: "2.10"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+        - noble
+  galaxy_tags:
+    - file
+    - module
+    - custom
+
+dependencies: []
